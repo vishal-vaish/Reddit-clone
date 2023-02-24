@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&family=Rubik:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+.postContainer{
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     align-items: center; 
+     position: absolute;
+   border: 1px solid gray;
+   font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    
+}
+
+
+.postContainer img{
+    width: 70%;
+    height: 50%;
+    /* padding: 5% 15% 15% 15%; */
+    align-content: center;
+    /* object-fit: contain; */
+
+}
+.postContainer .title{
+    align-self:flex-start;
+    margin-left: 11%;
+    margin-bottom: 1%;
+    color:#635959;
+    display: inline;
+    padding-right: 5px;
+    word-wrap: break-word;
+    text-align: center;
+    /* font-size: 100px; */
+    width: 80%;
+    /* font-family: 'Oswald', sans-serif; */
+font-family: 'Roboto', sans-serif;
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+  
+}
+.upvotes{
+    display: flex;
+    flex-direction: column;
+    background-color: #dadfeb;
+    width: 10%;
+    padding: 1%;
+}
+
+.upvotes span{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.upvotes span p{
+    margin-top: 8%;
+    margin-left: 7%;
+}
+@media only screen and
+(max-width : 1011px) {
+    .postContainer{
+        border: none;
+        margin-left: 0%;
+    }
+
+    .upvotes{
+        position: absolute;
+        top: 100%;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        border: 2px solid gray;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .upvotes span{
+        margin-left: 10%;
+        justify-content: space-around;
+    }
+    article{
+        margin-top: 30px;
+    }
+
+}
+
