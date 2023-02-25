@@ -43,6 +43,7 @@ const MainContainer = (props) => {
       {/* {clicked ? (
        <></>
       ) : ( */}
+      <div className="crtContainer">
       <Button
         height={"50px"}
         width={"140px"}
@@ -58,6 +59,7 @@ const MainContainer = (props) => {
       >
         create post
       </Button>
+      </div>
       {/* )} */}
 
       <div>
